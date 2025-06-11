@@ -1,35 +1,204 @@
-body {
-    background-color: aliceblue;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+
+.banner {
+    background-image: url("images/fog_woman.jpg");
+    margin: 0px;
+    height: 820px;
+    background-repeat: no-repeat;           /* empêche la répétition */
+    background-size: cover;                 /* agrandit l'image pour qu'elle couvre toute la zone */
+    background-position: center;
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
-    padding: 0 24px;
+    padding: 10px;
+    margin-right: 30px;
+    margin-left: 30px;
 }
 
 .logo {
-     width: 300px; 
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: sans-serif;
+}
+
+.links img {
+    height: 50px;
+    color: white;
+    margin-top: 10px;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    padding-left: 800px;
+    padding-right: 50px;
+}
+
+.h1 {
+    padding-top: 150px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    text-align: justify;
+}
+
+.p {
+    padding-top: 30px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+
+.contact {
+    display: flex;
+    margin-top: 40px;
 }
 
 .link {
     text-decoration: none;
     font-size: 24px;
-    background-color: turquoise;
-    color: black;
+    background-color: white;
+    color: #80381C;
     padding: 16px 32px;
-    border-radius: 4px;
+    border-radius: 9999px;
 }
 
-.links{
-    display: flex;
-    gap: 24px;
+.presentation {
+    background-color: floralwhite;
 }
 
-.maps, .video {
+.tennis {
     display: flex;
+}
+
+.tennis img {
+    padding: 40px;
+    height: 780px;
+}
+
+.tennis1 {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    margin-top: 24px;
+    font-family: sans-serif;
+    margin-right: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.tennis1 h3 {
+    font-size: 65px  ;
+}
+
+.tennis1 p {
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.athletisme {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.athletisme img {
+    padding: 40px;
+    height: 780px;
+}
+
+.athletisme1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: sans-serif;
+    margin-left: 20px;
+    padding-right: 200px;
+    padding-left: 80px;
+    margin-left: 160px;
+}
+
+.athletisme1 h3 {
+    font-size: 65px  ;
+}
+
+.athletisme1 p {
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.rugby {
+    display: flex;
+}
+
+.rugby img {
+    padding: 40px;
+    height: 780px;
+}
+
+.rugby1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: sans-serif;
+    margin-right: 20px;
+    padding-left: 200px;
+    padding-right: 200px
+}
+
+.rugby1 h3 {
+    font-size: 65px  ;
+}
+
+.rugby1 p {
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.natation {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.natation img {
+    padding: 40px;
+    height: 780px;
+}
+
+.natation1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: sans-serif;
+    margin-left: 20px;
+    padding-right: 200px;
+    padding-left: 80px;
+    margin-left: 160px;
+}
+
+.natation1 h3 {
+    font-size: 65px  ;
+}
+
+.natation1 p {
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.end {
+    background-color: #80381C;
+}
+
+.end h3 {
+    padding: 100px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 70px;
+    text-align: center;
 }
